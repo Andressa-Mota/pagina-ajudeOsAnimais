@@ -1,0 +1,243 @@
+.navBar {
+    z-index: 1;/*define a prioridade do elemeto*/
+    background-color: black !important; /*cor do fundo*/
+    padding: 20px 70px 20px 70px !important; /*espçamento das bordas*/
+    position: fixed !important;   /*fixa a NAvBar mesmo rolando a página*/
+    width: 100% !important; /*a largura fica do tamanho total da página*/
+}
+
+.textNav {
+    color:white !important;
+    font-size: 25px !important;
+    padding: 0px 20px 0px 20px !important; /*espçamento entre elementos*/
+}
+
+.divLogo {
+    padding-right: 50px; /*espçamento a direita da logo*/
+}
+
+.pageFull{
+height: 100vh; /*deixa em tela cheia*/
+}
+
+
+.sectionOne{
+padding-top: 100px; /*para a navBar não atrapalhar a vizualização do inicio da pagina*/
+background-color: #DCDCDC;
+color: black;
+font-size: 30px;
+font-weight: 600; /*Largura do negrito*/
+margin: 0px;
+}
+
+.tittleSectionOne{
+    color: black;
+    font-size: 30px;
+    font-weight: 600; /*Largura do negrito*/
+    margin-bottom: 30px; /*margem inferior*/
+    }
+
+.textSectionOne{
+    color: black;
+    font-size: 15px;
+    font-weight: 300; /*Largura do negrito*/
+    margin-bottom: 30px;
+        }
+    
+.tittleSectionTwo{
+    color: black;
+    font-size: 30px;
+    font-weight: 600; /*Largura do negrito*/
+    margin-bottom: 30px; /*margem inferior*/
+
+        }
+
+.textSectionTwo{
+    color: black;
+    font-size: 15px;
+    font-weight: 300; /*Largura do negrito*/
+    margin-bottom: 30px;
+        }
+                    
+.caozinho{
+
+    margin-left: 100px;
+   margin-top: 117px; 
+}
+
+.divSectionPadding{
+
+    padding: 0px 100px;
+
+}
+
+.botaoContato{
+/*background-color: #F0E68C; Mudar a cor do botão*/
+/*border: none; Mudar a borda do botão*/
+padding: 15px  25px 15px 25px;
+font-size: 20px;
+font-weight: 600;
+margin-right: 15px;
+}
+
+    .botaoContato:hover{ /*DEFINE A COR QUANDO PASSA O MOUSE EM CIMA DO BOTÃO*/
+    background-color: #F0E68C;
+    }   
+/*
+.botaoContato:focus{
+    background-color: DEFINE A COR QUANDO CLICA NO BOTÃO;
+}    */
+
+.botaoSaiba{
+    padding: 15px  25px 15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.botaoContatoTwo{
+    background-color: black; /*Mudar a cor do botão*/
+    color:white;
+    border: 1px solid black !important; /*Mudar a borda do botão*/
+    padding: 15px  25px 15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 15px;
+    }
+     .botaoContatoTwo:hover{ /*DEFINE A COR QUANDO PASSA O MOUSE EM CIMA DO BOTÃO*/
+        background-color: #DCDCDC;
+        }
+
+.divPaddingFirstCol{
+    padding: 100px; /*para separar em 100 pixels essa coluna da outra*/
+}
+
+.squareSectionTwo{
+background-color: orange;
+width: 150px;
+height: 150px;
+margin: 0px -35px 0 -35px; /*valor negativo faz com que ele fique atrás do outro elemento*/
+bottom: 0px;
+position: absolute;
+}
+
+.squareSectionTwoImage{
+    margin-bottom: 20px;
+    width: 400px;   
+    background-color: orange;
+}
+
+.sectionTwoImage{
+   
+    opacity: 0.7;  
+    width: 100%;
+}
+
+
+.sectionThree{
+    background-color: #DCDCDC;
+    color: black;
+    font-size: 30px;
+    font-weight: 600; /*Largura do negrito*/
+    margin: 0px;
+    }
+
+
+    .tittleSectionThree{
+
+        font-size: 60px;
+        font-weight: 600px;
+        margin-bottom: 30px;
+
+    }
+
+
+    .textSectionThree{
+
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: black;
+    }
+
+    .textImgSectionThree{
+        font-size: 30px;
+        font-weight: 500px;
+       margin: 0 70px 50px 70px;
+       color:black;
+       text-decoration: none;
+    }
+        .textImgSectionThree:hover{
+        color: orange;
+        
+        }
+
+    .imgSectionThree{
+    width: 300px;
+    height: 350px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 40px;
+
+    }
+
+    .textCenter{
+
+    text-align: -webkit-center; /*centraliza o texto*/
+    }
+
+    .footer{
+        padding-top: 90px; 
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        margin: 0px;
+    }
+    
+    .textFooter{
+        padding-top:300px; 
+        font-size: 30px;
+        font-weight: 500px;
+      
+       color: white;
+      
+    }
+    .linkStyle{
+        color: white;
+        text-decoration: none; /*remove o underline do link*/
+        font-size: 25px;
+        display:block;
+    }
+         .linkStyle:hover{
+              color: orange;
+             
+         }
+
+    h3{
+    padding-top:300px; 
+    color:white;
+    
+
+    }
+
+    .finalButton{
+         
+        border: none;
+        width: 60px;
+        color:white;
+        background-color: gray;
+
+
+    }
+
+    input{
+       
+        background-color: orange;
+        border:none;
+        height: 50px;
+        width: 250px;
+    }
+
+    .tamP{
+
+        font-size: 15px;
+    }
